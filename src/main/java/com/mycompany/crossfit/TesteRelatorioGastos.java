@@ -31,7 +31,6 @@ public class TesteRelatorioGastos {
         devFrontEnd.setNumDepentes(10);
         devFrontEnd.setSalario(23.500);
         devFrontEnd.setCrpw(123321);
-        devFrontEnd.setCrp(133);
 
         List<Funcionario> funcionarioList = new ArrayList<Funcionario>();
         funcionarioList.add(cientistaDados);

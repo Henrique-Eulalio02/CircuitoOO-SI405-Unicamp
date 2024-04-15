@@ -6,21 +6,11 @@ import java.util.List;
 public class Crossfit {
 
     public static void main(String[] args) {
-        Programador p = new Programador();
         CientistaDados cd = new CientistaDados();
         GerenteTi gt = new GerenteTi();
         DevFrontEnd fe = new DevFrontEnd();
 
         List<Funcionario> funcionarioList = new ArrayList<Funcionario>();
-
-        p.setNome("eduardo");
-        p.setCpf("312312312312");
-        p.setDataNasc("02/03/2003");
-        p.setNumDepentes(2);
-        p.setSalario(14.500);
-        p.setCrp(123);
-
-        funcionarioList.add(p);
 
         cd.setNome("henrique");
         cd.setCpf("65645645645");
@@ -47,7 +37,6 @@ public class Crossfit {
         fe.setNumDepentes(10);
         fe.setSalario(23.500);
         fe.setCrpw(123321);
-        fe.setCrp(133);
 
         funcionarioList.add(fe);
 

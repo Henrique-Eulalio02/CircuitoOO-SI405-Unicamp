@@ -1,6 +1,6 @@
 package com.mycompany.crossfit;
 
-public class GerenteTi extends Funcionario{
+public class GerenteTi extends Funcionario implements AutenticaSenha{
 
     private int numFunc;
     private String ramal;
@@ -57,8 +57,8 @@ public class GerenteTi extends Funcionario{
         return ((super.getSalario() * 0.1) * this.numFunc) * this.getSalario();
     }
 
-    public boolean autenticaSenha(String senha, String senhaG, String cpf) {
-        return (senhaG).equals(senha) && cpf.length() == 11;
+    @Override
+    public boolean autenticaSenha(String senha) {
+        return (this.senha).equals(senha);
     }
-
 }

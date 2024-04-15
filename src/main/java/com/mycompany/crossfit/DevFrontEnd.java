@@ -1,6 +1,6 @@
 package com.mycompany.crossfit;
 
-public class DevFrontEnd extends Programador{
+public class DevFrontEnd extends Funcionario{
     private int crpw;
 
     public DevFrontEnd(){}
